@@ -1,0 +1,38 @@
+h1{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 0%;
+    padding: 10px;
+}
+body{
+    background-color: rgba(255, 255, 255, 0);
+    margin: 0%;
+}
+fieldset{
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    width: 500px;
+    margin:auto
+}
+legend{
+    color: rgb(255, 255, 255);
+    border: 1px solid #ffffff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 2px 10px;
+}
+button{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 5px 20px;
+}
+textarea{
+    resize: none;
+    width: 500px;
+}

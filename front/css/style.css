@@ -1,0 +1,51 @@
+/* 
+--------------------------------
+h1 = (h1) nome do elemento
+
+id = (#) nome do id
+
+class = (.) nome da classe 
+--------------------------------
+prioridades
+--------------------------------
+    id
+        class
+            nome do elemento 
+--------------------------------
+*/
+
+/* nome do elemento */
+p{
+    color: rgb(255, 0, 0);
+    font-size: 22px;
+    background-color: #08130f;
+    width: 350px;
+    height: 10;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+/* class */
+.paragrafo{
+    color: rgb(0, 255, 0);
+    font-size: 33px
+}
+/* id */
+#paragrafo {
+    color: rgb(0, 0, 255);
+    font-size: 44px;
+}
+#paragrafo1 {
+    color:#66CDAA;
+    font-size: 55px
+}
+#paragrafo2 {
+    color:rgba(red, green, blue,155 alpha);
+    font-size: 66px
+}
+.container{
+    border: 2px solid gray;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 100px;
+}

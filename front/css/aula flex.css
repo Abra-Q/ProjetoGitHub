@@ -1,0 +1,16 @@
+.area{
+    height: 500px;
+    background-color: gray;
+    gap: 10px;
+    display: flex;
+    flex-direction:row;
+
+    align-items:center;
+    justify-content:space-around;
+}
+.box{
+    font-size: 3rem;
+    background-color: darkblue;
+    color: white;
+    padding: 100px 100px;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercico formulario</title>
+    <link rel="stylesheet" href="/css/exercicio formulario.css">
+</head>
+    <body>
+        <form action = "..." method="post">
+            <h1>Exercíco formulario:</h1>
+            <fieldset>
+
+                <legend>Dados pessoais</legend>
+                
+                <br>
+
+                <label for = "nome">Nome:</label>
+                <input type="text" id ="nome"name="Nome"minlength = "3"maxlength="20" required>
+
+                <br><br>
+
+                <label for = "idade">Idade:</label>
+                <input type="number" id="idade"name="Idade" min= "18" max="120"required>
+
+                <br><br>
+
+                <label for="alt">Altura</label>
+                <input type="number" id="alt" name="Altura" min="100" max="300"required>
+
+                <br><br>
+
+                Sexo:
+
+                <br>
+
+                <label for="Mas">Masculino:</label>
+                <input type="radio" id="Mas" name="S">
+                <label for="Fem">Feminino:</label>
+                <input type="radio" id="Fem" name="S">
+            </fieldset>
+
+            <br><br>
+
+            <fieldset>
+                <legend>Dados empresariais</legend>
+                <br>
+                <label for="empre">Nome da Empresa: </label>
+                <input type="text" name="empre" id="Nome enpre" minlength="6"maxlength="25"required>
+
+                <br><br>
+
+                <label for="cargo">Cargo:</label>
+                <select name="Cargo" id="cargo">
+                    <option value="" disabled>Selecione uma opção</option>
+                    <option value="">Analista</option>
+                    <option value="">Engenheiro</option>
+                    <option value="">Cientista</option>
+                </select>
+
+                <br><br>
+
+                <label for="desc">Descrição das Atividades:</label><br><br>
+                <textarea name="area" id="desc"rows="7"cols="49"></textarea>
+            </fieldset>
+            <br>
+            <button>Enviar:</button>
+            <br>
+        </form>
+    </body>
+</html>

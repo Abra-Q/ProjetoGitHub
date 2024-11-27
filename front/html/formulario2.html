@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <imagem>
+            <a href="https://www.sp.senai.br/">
+                <img src="/imagens/senai logo.svg" alt="logo do senai" width="500px"></a>
+            <a href="https://www.google.com.br/?hl=pt-BR">
+                <img src="/imagens/google logo.png" alt="logo google"></body><a href=""></a>    
+        </imagem>
+
+        <formulario>
+            <fieldset>
+            <br action="index.php"method="post">
+                <!-- 
+                method
+                    post = dados sensiveis
+                    get = na url 
+                -->
+                <Label for="user">usuario:</Label>
+                <br>
+                <input type="text" id = "user" name="user">
+                <br>
+
+                <Label for="senha">senha:</Label>
+                <br>
+                <input type="password" id = "senha" name="password">
+                <!-- <input type="button" value="Enviar"> -->
+                <button>Enviar:</button>
+                </br>
+
+                <label for="areat">descrição</label>
+                </br>
+                <textarea name="" id="areat"rows="2"cols="23" ></textarea>
+                </br>
+                <br>
+                    <label for="">Escolha uma opção</label>
+                <Select>
+                    <option value="">Opção 1</option>
+                    <option value="">Opção 2</option>
+                    <option value="">Opção 3</option>
+                </Select>
+                <br>
+                <button>Enviar</button>
+            </fieldset>
+                <br><br>
+            <fieldset>
+            <legend>tipos de input</legend>
+                <input type="checkbox">
+                <br><br>
+                <input type="color">
+                <br><br>
+                <input type="date">
+                <br><br>
+                <input type="datetime-local">
+                <br><br>
+                <input type="file">
+                <br><br>
+                <input type="month">
+                <br><br>
+                <input type="number">
+                <br><br>
+                <input type="week">
+                <br><br>
+                <input type="range">
+            </form>
+            <br></br>
+            <form>
+            </fieldset>
+                <br><br>
+            <fieldset><legend>dados pessoais</legend>
+                <!-- Validações -->
+
+                <label for="">Nome:</label>
+                <input type="text" minlength="3" maxlength="8" required>
+        
+                <br><br>
+        
+                <label for="">Idade:</label>
+                <input type="number" min="18" max="120" required>
+        
+                <br><br>
+        
+                <button>Enviar</button>
+        
+            </fieldset>
+        </formulario>
+    </body>
+</html>
